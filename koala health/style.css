@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(244, 241, 237, 1);
+    margin: 20px 50px;
+    padding: 20px;
+    background-image: url(image/IMAGE.png);
+    background-repeat: no-repeat;
+    height: 1600px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 30px;
+    height: 40px;
+    
+}
+.first{
+    display: flex;
+    font-weight: 100;
+    font-size: 23px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    text-decoration: solid;
+    color: rgba(14, 45, 34, 1);
+}
+.firstButton{
+    width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(218, 215, 215);
+    background-color: white;
+}
+.card{
+    margin-top: 70px;
+    margin-left: 750px;
+    font-size: 30px;
+    order: 1;
+   
+}
+.secondButton{
+    width: 300px;
+    height: 40px;
+    border-radius: 17px;
+    border-style: none;
+    background-color: rgba(14, 45, 34, 1);
+    color: rgba(203, 221, 191, 1);
+    font-size: 20px;
+}
+.second{
+    margin-top: 450px;
+    margin-left: 200px;
+}
+h3{
+    font-size: 3em;
+    font-weight: 300;
+}
+h2{
+    font-size: 2em;
+    font-weight: 300;
+}
+.images{
+    position: relative;
+    width: 100px;
+}
+.secondImg{
+    position: absolute;
+    left: 400px;
+    bottom: 1px;
+}
+.fourButton{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(14, 45, 34, 1);
+}
+.thirdButton{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+}
+.sort, .verify, .deliver{
+    display: flex;
+    gap: 10px;
+}
+h5{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+.cards{
+    margin-top: 200px;
+    position: relative;
+    border-radius: 60px 60px 0px 0px;
+    background-color: white;
+}
+h6{
+    text-align: center;
+    font-size: 40px;
+}
+span{
+    color: rgb(91, 89, 89);
+}
+
+
+
+
+
